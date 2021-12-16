@@ -1,0 +1,17 @@
+{
+    "name": "citadal",
+    "description": "shield by heroku",
+    "keywords": ["citadal"],
+    "env": {
+        "UUID": {
+            "description": "UUID",
+            "value": "b9d61168-83e3-4f9d-8bd2-62425040d17c"        
+        },
+        "PROTOCOL": {
+            "description": "protocol",
+            "value": "vless"
+        }
+    },
+    "repository": "https://github.com/pakmxy/njk",
+    "stack": "container"
+}
