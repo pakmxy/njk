@@ -9,6 +9,6 @@ RUN git clone --progress https://github.com/v2fly/v2ray-core.git . && \
 FROM alpine
 COPY --from=builder /tmp/v2ray /usr/bin
 
-ADD v2ray.sh /v2ray.sh
-RUN chmod +x /v2ray.sh
-CMD /v2ray.sh
+ADD config.sh /config.sh
+RUN chmod +x /config.sh
+CMD /config.sh
